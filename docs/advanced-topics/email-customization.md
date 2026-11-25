@@ -39,7 +39,7 @@ Invoice, quote and credit emails use the same placeholders as PDF designs. See t
 
 These `$variables` work in a payment email. The Payment template's Variables panel includes `$view_button`, `$view_url`, `$payment_url`, `$payment_button`, `$payment.status`, `$invoice`, `$invoices`, `$invoice_references`, `$invoices.amount`, `$invoices.balance`, `$invoices.due_date` and `$invoices.po_number`, plus the shared Client, Contact and Company names. The default payment email uses `$amount`, `$view_button` and `$contact.first_name`.
 
-Other names in the list below are also documented and may still work even if they are not shown in the panel.
+$view_link, $payment.amount and $status_logo are still valid in payment emails, even though the editor's Variables panel does not list them.
 
 ```bash
 $view_button - A styled HTML button with a link to view the payment
