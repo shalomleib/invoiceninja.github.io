@@ -88,7 +88,7 @@ After you save the design, set it as your default invoice design under **Setting
 SEPA QR codes need at least an IBAN. For payments from outside the EEA you also need a BIC.
 
 1. Go to **Settings > E-Invoicing** (`#/settings/e_invoice`).
-2. Under **Payment Means**, set **Code** to **Credit transfer** or **SEPA credit transfer**. The dropdown lists names only; it does not show numeric codes. Payment Means is on this page even if **Enable E-Invoice** is off.
+2. Under **Payment Means**, set **Code** to **Credit transfer** or **SEPA credit transfer**. The dropdown lists names only; it does not show numeric codes. The SEPA QR code works with e-invoicing turned off, as long as this is set to **Credit transfer** or **SEPA credit transfer**. The Payment Means details are used in preference to other bank details.
 3. Fill in the account fields that appear, then click **Save**.
 
 ![The E-Invoicing page, including Payment Means](/assets/images/qr/sepa_qr_code_config_1.png "E-Invoicing page with Payment Means")
