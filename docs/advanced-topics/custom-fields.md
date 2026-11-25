@@ -79,7 +79,7 @@ The list has a **Filter** box, a **Lifecycle** filter (for example **Active**), 
 ![The New Design form, including name, type and a base design](/assets/images/creating-custom-design/new_tutorial_design.png "New Design form")
 
 4. Enter a **Name**.
-5. Set **Type** to **Design** or **Template**. **Design** is the default.
+5. Set **Type** to **Design** or **Template**. **Design** is the default. **Template** makes the design a template, the kind described on the [Templates](/docs/advanced-topics/templates) page.
 6. Optionally pick a **Design** to use as the starting point. Built-in options include **Bold**, **Business**, **Calm**, **Clean**, **Creative**, **Elegant**, **Hipster**, **Modern**, **Plain**, **Playful** and **Tech**. The base design is less important if you already have a complete layout in mind.
 7. Click **Save**.
 
